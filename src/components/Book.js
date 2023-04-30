@@ -1,13 +1,17 @@
 import React from 'react'
 
-const Book = () => {
+// const title =  'Atomic Habits'
+// // const author = 'james clear'
+// const img = 'https://m.media-amazon.com/images/I/51B7kuFwQFL._SX329_BO1,204,203,200_.jpg'
+
+const Book = ({author,title,img}) => {
+
   return (
     <article className="book">
-    <img src="https://m.media-amazon.com/images/I/51B7kuFwQFL._SX329_BO1,204,203,200_.jpg"
-    alt="Atomic Habits"
+    <img src= {img} alt="atomic habits"
     />
-     <h2>Atomic Habits</h2>
-     <h4>James Clear</h4>
+     <h2>{title}</h2>
+     <h4>{author}</h4>
       
     </article>
   )

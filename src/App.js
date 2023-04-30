@@ -7,8 +7,6 @@ const App = () => {
     <div>
       {/* <h1>hello ben</h1> */}
       <BookList/>
-      {/* <BookList/>
-      <BookList/> */}
     </div>
   )
 }

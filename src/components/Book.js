@@ -1,14 +1,13 @@
 import React from 'react'
-import Image from './Image'
-import Title from './Title'
-import Author from './Author'
 
 const Book = () => {
   return (
-    <article>
-    <Image/>
-    <Title/>
-    <Author/>
+    <article className="book">
+    <img src="https://m.media-amazon.com/images/I/51B7kuFwQFL._SX329_BO1,204,203,200_.jpg"
+    alt="Atomic Habits"
+    />
+     <h2>Atomic Habits</h2>
+     <h4>James Clear</h4>
       
     </article>
   )

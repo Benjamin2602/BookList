@@ -4,7 +4,10 @@ import Book from './Book'
 
 const BookList = () => {
   return (
-    <section>
+    <section className="book-list">
+    <Book/>
+    <Book/>
+    <Book/>
     <Book/>
       
     </section>
